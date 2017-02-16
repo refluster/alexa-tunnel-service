@@ -9,3 +9,10 @@ app.get("/api/light", function(req, res, next){
 	console.log(req);
     res.json('res');
 });
+
+
+var io = require('socket.io')();
+io.on('connection', function(client){
+	console.log('connected');
+});
+io.listen(3001);
