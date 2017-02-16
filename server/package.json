@@ -1,5 +1,5 @@
 {
-  "name": "alexa tunnel server",
+  "name": "alexa-tunnel-server",
   "version": "0.0.1",
   "description": "alexa tunnel server",
   "main": "app.js",
